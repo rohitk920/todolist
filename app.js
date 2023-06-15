@@ -8,7 +8,7 @@ const _ = require('lodash');
 const PORT = 3000
 
 
-const dbUrl = "mongodb+srv://vicious:Nooneknows@cluster0.io2eaiy.mongodb.net/todolistDB";
+const dbUrl = "mongodb+srv://username:pass@cluster0.io2eaiy.mongodb.net/todolistDB";
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static("public"))
